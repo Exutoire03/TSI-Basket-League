@@ -1,38 +1,92 @@
 [
   {
     "id": 1,
-    "name": "Cyber Lions",
-    "city": "Neo-Lisbon",
-    "logo": "/logo-placeholder-1.png",
-    "mainColor": "#FFD700",
-    "secondaryColor": "#000000",
+    "name": "Cotonou Falcons",
+    "city": "Cotonou",
+    "logo": "/cotonou-falcons.png",
+    "mainColor": "#1E3A8A",
+    "secondaryColor": "#FACC15",
     "foundationYear": 2020
   },
   {
     "id": 2,
-    "name": "Quantum Knights",
-    "city": "Tech-Paris",
-    "logo": "/logo-placeholder-2.png",
-    "mainColor": "#C0C0C0",
-    "secondaryColor": "#00008B",
+    "name": "Abidjan Lions",
+    "city": "Abidjan",
+    "logo": "/abidjan-lions.png",
+    "mainColor": "#F59E0B",
+    "secondaryColor": "#1F2937",
     "foundationYear": 2018
   },
   {
     "id": 3,
-    "name": "Celestial Dragons",
-    "city": "Sky-Shanghai",
-    "logo": "/logo-placeholder-3.png",
-    "mainColor": "#DC143C",
-    "secondaryColor": "#F1C40F",
-    "foundationYear": 2021
+    "name": "Dakar Titans",
+    "city": "Dakar",
+    "logo": "/dakar-titans.png",
+    "mainColor": "#EF4444",
+    "secondaryColor": "#1E293B",
+    "foundationYear": 2019
   },
   {
     "id": 4,
-    "name": "Abyssal Guardians",
-    "city": "Deep-Tokyo",
-    "logo": "/logo-placeholder-4.png",
-    "mainColor": "#00FFFF",
-    "secondaryColor": "#191970",
+    "name": "Lomé Panthers",
+    "city": "Lomé",
+    "logo": "/lome-panthers.png",
+    "mainColor": "#0EA5E9",
+    "secondaryColor": "#111827",
+    "foundationYear": 2021
+  },
+  {
+    "id": 5,
+    "name": "Accra Eagles",
+    "city": "Accra",
+    "logo": "/accra-eagles.png",
+    "mainColor": "#22C55E",
+    "secondaryColor": "#1E293B",
+    "foundationYear": 2017
+  },
+  {
+    "id": 6,
+    "name": "Bamako Warriors",
+    "city": "Bamako",
+    "logo": "/bamako-warriors.png",
+    "mainColor": "#7C3AED",
+    "secondaryColor": "#EAB308",
+    "foundationYear": 2020
+  },
+  {
+    "id": 7,
+    "name": "Lagos Sharks",
+    "city": "Lagos",
+    "logo": "/lagos-sharks.png",
+    "mainColor": "#0284C7",
+    "secondaryColor": "#0F172A",
+    "foundationYear": 2016
+  },
+  {
+    "id": 8,
+    "name": "Yaoundé Hawks",
+    "city": "Yaoundé",
+    "logo": "/yaounde-hawks.png",
+    "mainColor": "#E11D48",
+    "secondaryColor": "#FACC15",
     "foundationYear": 2019
+  },
+  {
+    "id": 9,
+    "name": "Ouagadougou Bulls",
+    "city": "Ouagadougou",
+    "logo": "/ouagadougou-bulls.png",
+    "mainColor": "#F97316",
+    "secondaryColor": "#1E3A8A",
+    "foundationYear": 2018
+  },
+  {
+    "id": 10,
+    "name": "Kinshasa Royals",
+    "city": "Kinshasa",
+    "logo": "/kinshasa-royals.png",
+    "mainColor": "#2563EB",
+    "secondaryColor": "#FBBF24",
+    "foundationYear": 2021
   }
 ]
