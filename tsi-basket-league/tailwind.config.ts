@@ -16,6 +16,8 @@ const config: Config = {
         'background-dark': 'var(--background-dark)',
         'text-light': 'var(--text-light)',
         'text-dark': 'var(--text-dark)',
+        tertiary: 'var(--tertiary)',
+        sand: 'var(--sand)',
       },
       fontFamily: {
         heading: ['var(--font-heading)'],

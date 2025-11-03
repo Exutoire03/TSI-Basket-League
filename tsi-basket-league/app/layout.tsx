@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Bebas_Neue } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -15,7 +18,7 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata: Metadata = {
   title: "TSI Basket League",
-  description: "The official website of the TSI Basket League.",
+  description: "Site officiel de la TSI Basket League",
 };
 
 export default function RootLayout({
@@ -24,9 +27,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${bebasNeue.variable} font-sans antialiased`}>
-        {children}
+    <html lang="fr" suppressHydrationWarning>
+      <body className={`${inter.variable} ${bebasNeue.variable} font-sans antialiased bg-white dark:bg-background-dark`}>
+        <ThemeProvider>
+          <Header />
+          <main className="min-h-screen">{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

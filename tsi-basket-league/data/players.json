@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "teamId": 1,
+    "firstName": "Leo",
+    "lastName": "Cyber",
+    "number": 7,
+    "position": "SG",
+    "height": 198,
+    "weight": 95,
+    "age": 25,
+    "photo": "/player-placeholder.png",
+    "stats": {
+      "points": 28.5,
+      "rebounds": 6.2,
+      "assists": 4.8
+    }
+  },
+  {
+    "id": 2,
+    "teamId": 1,
+    "firstName": "Max",
+    "lastName": "Power",
+    "number": 23,
+    "position": "PF",
+    "height": 205,
+    "weight": 110,
+    "age": 28,
+    "photo": "/player-placeholder.png",
+    "stats": {
+      "points": 22.1,
+      "rebounds": 10.5,
+      "assists": 2.1
+    }
+  },
+  {
+    "id": 3,
+    "teamId": 2,
+    "firstName": "Arthur",
+    "lastName": "Pendragon",
+    "number": 10,
+    "position": "PG",
+    "height": 191,
+    "weight": 88,
+    "age": 26,
+    "photo": "/player-placeholder.png",
+    "stats": {
+      "points": 19.8,
+      "rebounds": 4.5,
+      "assists": 9.2
+    }
+  },
+  {
+    "id": 4,
+    "teamId": 2,
+    "firstName": "Galahad",
+    "lastName": "Pure",
+    "number": 1,
+    "position": "C",
+    "height": 211,
+    "weight": 115,
+    "age": 24,
+    "photo": "/player-placeholder.png",
+    "stats": {
+      "points": 15.3,
+      "rebounds": 12.8,
+      "assists": 1.5
+    }
+  },
+  {
+    "id": 5,
+    "teamId": 3,
+    "firstName": "Long",
+    "lastName": "Wei",
+    "number": 8,
+    "position": "SF",
+    "height": 203,
+    "weight": 100,
+    "age": 27,
+    "photo": "/player-placeholder.png",
+    "stats": {
+      "points": 25.6,
+      "rebounds": 7.8,
+      "assists": 3.4
+    }
+  },
+  {
+    "id": 6,
+    "teamId": 4,
+    "firstName": "Kai",
+    "lastName": "Mizu",
+    "number": 5,
+    "position": "PG",
+    "height": 185,
+    "weight": 82,
+    "age": 23,
+    "photo": "/player-placeholder.png",
+    "stats": {
+      "points": 18.2,
+      "rebounds": 3.1,
+      "assists": 8.5
+    }
+  }
+]
