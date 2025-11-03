@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Cyber Lions",
+    "city": "Neo-Lisbon",
+    "logo": "/logo-placeholder-1.png",
+    "mainColor": "#FFD700",
+    "secondaryColor": "#000000",
+    "foundationYear": 2020
+  },
+  {
+    "id": 2,
+    "name": "Quantum Knights",
+    "city": "Tech-Paris",
+    "logo": "/logo-placeholder-2.png",
+    "mainColor": "#C0C0C0",
+    "secondaryColor": "#00008B",
+    "foundationYear": 2018
+  },
+  {
+    "id": 3,
+    "name": "Celestial Dragons",
+    "city": "Sky-Shanghai",
+    "logo": "/logo-placeholder-3.png",
+    "mainColor": "#DC143C",
+    "secondaryColor": "#F1C40F",
+    "foundationYear": 2021
+  },
+  {
+    "id": 4,
+    "name": "Abyssal Guardians",
+    "city": "Deep-Tokyo",
+    "logo": "/logo-placeholder-4.png",
+    "mainColor": "#00FFFF",
+    "secondaryColor": "#191970",
+    "foundationYear": 2019
+  }
+]
