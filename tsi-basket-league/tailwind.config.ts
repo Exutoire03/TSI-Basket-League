@@ -10,14 +10,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--primary)',
+        // Nouvelles couleurs
+        background: 'var(--background)',
+        'background-secondary': 'var(--background-secondary)',
+        'text-primary': 'var(--text-primary)',
+        'text-secondary': 'var(--text-secondary)',
         accent: 'var(--accent)',
-        'background-light': 'var(--background-light)',
-        'background-dark': 'var(--background-dark)',
-        'text-light': 'var(--text-light)',
-        'text-dark': 'var(--text-dark)',
-        tertiary: 'var(--tertiary)',
-        sand: 'var(--sand)',
+        'accent-secondary': 'var(--accent-secondary)',
+        alert: 'var(--alert)',
+        success: 'var(--success)',
+        border: 'var(--border)',
+        hover: 'var(--hover)',
       },
       fontFamily: {
         heading: ['var(--font-heading)'],

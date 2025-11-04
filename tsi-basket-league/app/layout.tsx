@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${inter.variable} ${bebasNeue.variable} font-sans antialiased bg-white dark:bg-background-dark`}>
+      <body className={`${inter.variable} ${bebasNeue.variable} font-sans antialiased bg-background`}>
         <ThemeProvider>
           <Header />
           <main className="min-h-screen">{children}</main>
