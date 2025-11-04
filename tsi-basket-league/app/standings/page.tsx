@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import StandingsTable from '@/components/StandingsTable';
+import { Loader, Trophy } from 'lucide-react';
+import StandingsTable from '../components/StandingsTable';
 import { motion, Variants } from 'framer-motion';
 
 // Interface pour les données du classement
