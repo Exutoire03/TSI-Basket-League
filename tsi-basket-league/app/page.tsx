@@ -80,15 +80,15 @@ export default function Home() {
   if (loading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <div className="text-2xl font-heading">Chargement...</div>
+        <div className="text-2xl font-heading text-text-primary dark:text-text-light">Chargement...</div>
       </div>
     );
   }
 
   return (
-    <div className="bg-white dark:bg-background-dark text-text-dark dark:text-text-light transition-colors duration-300">
+    <div className="bg-background dark:bg-background-dark text-text-primary dark:text-text-light transition-colors duration-300">
       {/* Section Hero */}
-      <section className="bg-gradient-to-br from-primary to-background-dark text-white py-20 px-4 dark:from-primary dark:to-background-dark">
+      <section className="bg-gradient-to-br from-accent-secondary to-primary text-white py-20 px-4 dark:from-accent-secondary dark:to-primary">
         <div className="container mx-auto text-center animate-fade-in">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 animate-slide-up">
@@ -100,13 +100,13 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay">
               <Link 
                 href="/teams"
-                className="bg-accent text-primary font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 shadow-lg"
+                className="bg-accent text-accent-secondary font-bold py-3 px-8 rounded-lg hover:bg-hover transition-all transform hover:scale-105 shadow-lg"
               >
                 Voir les équipes
               </Link>
               <Link 
                 href="/standings"
-                className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-primary transition-all transform hover:scale-105"
+                className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-accent-secondary transition-all transform hover:scale-105"
               >
                 Consulter le classement
               </Link>
@@ -116,31 +116,31 @@ export default function Home() {
       </section>
 
       {/* Section Résultats récents */}
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 bg-background dark:bg-background-dark">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-heading font-bold mb-10 text-center animate-slide-up">
+          <h2 className="text-4xl font-heading font-bold mb-10 text-center animate-slide-up text-text-primary dark:text-text-light">
             Résultats récents
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {recentMatches.length > 0 ? recentMatches.map((match) => (
               <div 
                 key={match.id} 
-                className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 border-l-4 border-accent"
+                className="bg-background-secondary dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl hover:bg-hover transition-all transform hover:-translate-y-1 border-l-4 border-accent"
               >
                 <div className="flex justify-between items-center mb-4">
-                  <span className="font-bold text-lg">{getTeamName(match.homeTeamId)}</span>
+                  <span className="font-bold text-lg text-text-primary dark:text-text-light">{getTeamName(match.homeTeamId)}</span>
                   <span className="text-2xl font-bold text-accent">{match.score.home}</span>
                 </div>
                 <div className="flex justify-between items-center mb-4">
-                  <span className="font-bold text-lg">{getTeamName(match.awayTeamId)}</span>
+                  <span className="font-bold text-lg text-text-primary dark:text-text-light">{getTeamName(match.awayTeamId)}</span>
                   <span className="text-2xl font-bold text-accent">{match.score.away}</span>
                 </div>
-                <div className="text-sm text-gray-500 dark:text-gray-400 pt-4 border-t border-gray-200 dark:border-gray-700">
+                <div className="text-sm text-text-secondary dark:text-gray-400 pt-4 border-t border-border dark:border-gray-700">
                   {formatDate(match.date)}
                 </div>
               </div>
             )) : (
-              <div className="col-span-3 text-center text-gray-500">
+              <div className="col-span-3 text-center text-text-secondary">
                 Aucun résultat récent
               </div>
             )}
@@ -149,15 +149,15 @@ export default function Home() {
       </section>
 
       {/* Section Classement Top 5 */}
-      <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 px-4 bg-background-secondary dark:bg-gray-900">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-heading font-bold mb-10 text-center animate-slide-up">
+          <h2 className="text-4xl font-heading font-bold mb-10 text-center animate-slide-up text-text-primary dark:text-text-light">
             Classement - Top 5
           </h2>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+          <div className="bg-background dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full">
-                <thead className="bg-primary text-white dark:bg-background-dark">
+                <thead className="bg-accent-secondary text-white dark:bg-background-dark">
                   <tr>
                     <th className="px-6 py-4 text-left font-heading">Rang</th>
                     <th className="px-6 py-4 text-left font-heading">Équipe</th>
@@ -170,13 +170,13 @@ export default function Home() {
                   {standings.map((standing, index) => (
                     <tr 
                       key={standing.teamId} 
-                      className="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+                      className="border-b border-border dark:border-gray-700 hover:bg-hover dark:hover:bg-gray-700 transition-colors"
                     >
                       <td className="px-6 py-4 font-bold text-accent">#{index + 1}</td>
-                      <td className="px-6 py-4 font-semibold">{standing.teamName}</td>
-                      <td className="px-6 py-4 text-center text-green-600 dark:text-green-400">{standing.wins}</td>
-                      <td className="px-6 py-4 text-center text-red-600 dark:text-red-400">{standing.losses}</td>
-                      <td className="px-6 py-4 text-center">
+                      <td className="px-6 py-4 font-semibold text-text-primary dark:text-text-light">{standing.teamName}</td>
+                      <td className="px-6 py-4 text-center text-success">{standing.wins}</td>
+                      <td className="px-6 py-4 text-center text-alert">{standing.losses}</td>
+                      <td className="px-6 py-4 text-center text-text-primary dark:text-text-light">
                         {standing.wins + standing.losses > 0 
                           ? ((standing.wins / (standing.wins + standing.losses)) * 100).toFixed(0) 
                           : 0}%
@@ -190,7 +190,7 @@ export default function Home() {
           <div className="text-center mt-8">
             <Link 
               href="/standings"
-              className="inline-block bg-primary text-white font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105"
+              className="inline-block bg-accent-secondary text-white font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105"
             >
               Voir le classement complet
             </Link>
@@ -199,9 +199,9 @@ export default function Home() {
       </section>
 
       {/* Section Équipes en vedette */}
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 bg-background dark:bg-background-dark">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-heading font-bold mb-10 text-center animate-slide-up">
+          <h2 className="text-4xl font-heading font-bold mb-10 text-center animate-slide-up text-text-primary dark:text-text-light">
             Équipes en vedette
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -214,7 +214,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link 
               href="/teams"
-              className="inline-block bg-accent text-primary font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 shadow-lg"
+              className="inline-block bg-accent text-accent-secondary font-bold py-3 px-8 rounded-lg hover:bg-hover transition-all transform hover:scale-105 shadow-lg"
             >
               Découvrir toutes les équipes
             </Link>
@@ -223,7 +223,7 @@ export default function Home() {
       </section>
 
       {/* Section CTA Finale */}
-      <section className="py-20 px-4 bg-gradient-to-r from-primary to-background-dark text-white dark:from-primary dark:to-background-dark">
+      <section className="py-20 px-4 bg-gradient-to-r from-accent-secondary to-primary text-white dark:from-accent-secondary dark:to-primary">
         <div className="container mx-auto text-center animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
             Rejoignez la communauté
@@ -234,13 +234,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/matches"
-              className="bg-accent text-primary font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 shadow-lg"
+              className="bg-accent text-accent-secondary font-bold py-3 px-8 rounded-lg hover:bg-hover transition-all transform hover:scale-105 shadow-lg"
             >
               Explorer les matchs
             </Link>
             <Link 
               href="/standings"
-              className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-primary transition-all transform hover:scale-105"
+              className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-accent-secondary transition-all transform hover:scale-105"
             >
               Suivre la ligue
             </Link>

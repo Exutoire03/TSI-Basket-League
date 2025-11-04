@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <header className="bg-primary text-white sticky top-0 z-50 shadow-lg dark:bg-background-dark transition-colors duration-300">
+    <header className="bg-accent-secondary text-white sticky top-0 z-50 shadow-lg dark:bg-background-dark transition-colors duration-300">
       <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
         <Link href="/" className="text-2xl md:text-3xl font-heading font-bold hover:text-accent transition-colors">
           TSI Basket League
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         </nav>
         <button 
           onClick={toggleTheme}
-          className="bg-accent hover:bg-opacity-80 text-primary font-bold py-2 px-4 rounded transition-all duration-300 dark:bg-opacity-80 dark:text-white"
+          className="bg-accent hover:bg-hover text-accent-secondary font-bold py-2 px-4 rounded transition-all duration-300 dark:bg-accent dark:text-accent-secondary"
           aria-label="Changer le thème"
         >
           {theme === 'light' ? '🌙' : '☀️'}
