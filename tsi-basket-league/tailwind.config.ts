@@ -10,21 +10,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Nouvelles couleurs
-        background: 'var(--background)',
-        'background-secondary': 'var(--background-secondary)',
-        'text-primary': 'var(--text-primary)',
-        'text-secondary': 'var(--text-secondary)',
-        accent: 'var(--accent)',
-        'accent-secondary': 'var(--accent-secondary)',
-        alert: 'var(--alert)',
-        success: 'var(--success)',
-        border: 'var(--border)',
-        hover: 'var(--hover)',
+        background: '#FFFFFF',
+        surface: '#F5F5F5',
+        text: {
+          primary: '#1A1A1A',
+          secondary: '#555555',
+        },
+        primary: '#FFD700', // Jaune doré (accent)
+        secondary: '#0D47A1', // Bleu foncé profond (accent secondaire)
+        live: '#E63946', // Alerte / live
+        success: '#2E7D32', // Succès / victoire
+        border: '#E0E0E0', // Bordures / séparateurs
+        hover: '#FFF7CC', // Couleur de survol
       },
       fontFamily: {
-        heading: ['var(--font-heading)'],
-        sans: ['var(--font-body)'],
+        
       },
     },
   },

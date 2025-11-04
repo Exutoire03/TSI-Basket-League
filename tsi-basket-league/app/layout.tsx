@@ -1,40 +1,26 @@
-import type { Metadata } from "next";
-import { Inter, Bebas_Neue } from "next/font/google";
-import "./globals.css";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-body",
-});
-
-const bebasNeue = Bebas_Neue({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-heading",
-});
+import './globals.css'
+import type { Metadata } from 'next'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 export const metadata: Metadata = {
-  title: "TSI Basket League",
-  description: "Site officiel de la TSI Basket League",
-};
+  title: 'TSI Basket League',
+  description: 'Statistiques, scores et actualités de la TSI Basket League.',
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="fr" suppressHydrationWarning>
-      <body className={`${inter.variable} ${bebasNeue.variable} font-sans antialiased bg-background`}>
-        <ThemeProvider>
-          <Header />
-          <main className="min-h-screen">{children}</main>
-          <Footer />
-        </ThemeProvider>
+    <html lang="fr">
+      <body>
+        <Header />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
       </body>
     </html>
-  );
+  )
 }
+

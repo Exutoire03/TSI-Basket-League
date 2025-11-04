@@ -6,17 +6,22 @@ import players from "@/data/players.json"
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url)
-    const teamId = searchParams.get("teamId")
+    const teamIdParam = searchParams.get("teamId")
 
-    let filteredPlayers = players
+    let result = players as Array<{ teamId: number }>
 
-    // Si teamId est fourni, filtre les joueurs de l'équipe correspondante
-    if (teamId) {
-      const id = parseInt(teamId, 10)
-      filteredPlayers = filteredPlayers.filter((p) => p.teamId === id)
+    if (teamIdParam !== null) {
+      const id = Number.parseInt(teamIdParam, 10)
+      if (Number.isNaN(id)) {
+        return NextResponse.json(
+          { error: "Paramètre teamId invalide" },
+          { status: 400 }
+        )
+      }
+      result = result.filter((p) => Number(p.teamId) === id)
     }
 
-    return NextResponse.json(filteredPlayers, { status: 200 })
+    return NextResponse.json(result, { status: 200 })
   } catch (error) {
     console.error("Erreur API /players:", error)
     return NextResponse.json(
