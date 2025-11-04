@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import StandingsTable from '@/components/StandingsTable';
-import { Loader, Trophy } from 'lucide-react';
+import { motion, Variants } from 'framer-motion';
 
 // Interface pour les données du classement
 interface Standing {
@@ -15,6 +15,17 @@ interface Standing {
   pointsAgainst: number;
   gamesPlayed: number;
 }
+
+// Framer Motion Variants
+const headerVariants: Variants = {
+  hidden: { opacity: 0, y: -50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+};
+
+const mainVariants: Variants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut", delay: 0.2 } }
+};
 
 export default function StandingsPage() {
   const [standings, setStandings] = useState<Standing[]>([]);
@@ -42,20 +53,30 @@ export default function StandingsPage() {
       <div className="container mx-auto px-4 py-10">
         
         {/* En-tête de la page */}
-        <header className="text-center mb-12 animate-fade-in-down">
+        <motion.header 
+          className="text-center mb-12"
+          variants={headerVariants}
+          initial="hidden"
+          animate="visible"
+        >
           <h1 className="text-5xl md:text-7xl font-heading font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">
             Classement de la Ligue
           </h1>
           <p className="text-lg text-gray-400 mt-3 max-w-2xl mx-auto">
             Suivez la course aux playoffs et découvrez qui dominera la saison régulière de la TSI Basket League.
           </p>
-        </header>
+        </motion.header>
 
         {/* Contenu principal */}
-        <main className="animate-fade-in-up">
+        <motion.main 
+          variants={mainVariants}
+          initial="hidden"
+          animate="visible"
+        >
           {loading ? (
-            <div className="flex justify-center items-center h-64">
+            <div className="flex flex-col justify-center items-center h-64 gap-4">
               <Loader className="animate-spin text-yellow-400" size={48} />
+              <p className="text-gray-400 text-lg">Chargement du classement...</p>
             </div>
           ) : standings.length > 0 ? (
             <StandingsTable standings={standings} />
@@ -68,7 +89,7 @@ export default function StandingsPage() {
               </p>
             </div>
           )}
-        </main>
+        </motion.main>
       </div>
     </div>
   );

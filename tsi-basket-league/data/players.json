@@ -9,7 +9,7 @@
     "height": 183,
     "weight": 80,
     "age": 24,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/kevin-mensah.png",
     "stats": { "points": 18.4, "rebounds": 3.1, "assists": 7.2 }
   },
   {
@@ -22,7 +22,7 @@
     "height": 190,
     "weight": 86,
     "age": 27,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/didier-adonon.png",
     "stats": { "points": 22.1, "rebounds": 5.2, "assists": 4.1 }
   },
   {
@@ -35,7 +35,7 @@
     "height": 198,
     "weight": 91,
     "age": 25,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/samir-dossa.png",
     "stats": { "points": 15.6, "rebounds": 6.4, "assists": 3.3 }
   },
   {
@@ -48,7 +48,7 @@
     "height": 204,
     "weight": 101,
     "age": 29,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/moussa-almeida.png",
     "stats": { "points": 17.3, "rebounds": 8.9, "assists": 2.1 }
   },
   {
@@ -61,7 +61,7 @@
     "height": 210,
     "weight": 110,
     "age": 28,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/koffi-lawson.png",
     "stats": { "points": 14.2, "rebounds": 10.1, "assists": 1.8 }
   },
   {
@@ -74,7 +74,7 @@
     "height": 182,
     "weight": 78,
     "age": 23,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/lionel-adjovi.png",
     "stats": { "points": 13.7, "rebounds": 2.9, "assists": 6.5 }
   },
   {
@@ -87,7 +87,7 @@
     "height": 192,
     "weight": 90,
     "age": 26,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/david-sossa.png",
     "stats": { "points": 19.1, "rebounds": 4.3, "assists": 3.8 }
   },
   {
@@ -100,7 +100,7 @@
     "height": 200,
     "weight": 93,
     "age": 25,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/yannick-tchibozo.png",
     "stats": { "points": 16.8, "rebounds": 7.2, "assists": 3.0 }
   },
   {
@@ -113,7 +113,7 @@
     "height": 205,
     "weight": 104,
     "age": 30,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/ulrich-houdonougbo.png",
     "stats": { "points": 12.9, "rebounds": 9.3, "assists": 1.6 }
   },
   {
@@ -126,7 +126,7 @@
     "height": 208,
     "weight": 108,
     "age": 31,
-    "photo": "/player-placeholder.png",
+    "photo": "/players/cotonou-falcons/jean-koudjo.png",
     "stats": { "points": 11.4, "rebounds": 10.8, "assists": 1.2 }
   },
   {
@@ -139,12 +139,8 @@
     "height": 214,
     "weight": 118,
     "age": 28,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.1,
-      "rebounds": 2.4,
-      "assists": 9.8
-    }
+    "photo": "/players/abidjan-lions/sade-gueye.png",
+    "stats": { "points": 18.1, "rebounds": 2.4, "assists": 9.8 }
   },
   {
     "id": 12,
@@ -156,12 +152,8 @@
     "height": 218,
     "weight": 101,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.1,
-      "rebounds": 11.9,
-      "assists": 9.1
-    }
+    "photo": "/players/abidjan-lions/chidi-sow.png",
+    "stats": { "points": 10.1, "rebounds": 11.9, "assists": 9.1 }
   },
   {
     "id": 13,
@@ -173,12 +165,8 @@
     "height": 210,
     "weight": 111,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.0,
-      "rebounds": 2.3,
-      "assists": 9.8
-    }
+    "photo": "/players/abidjan-lions/jelani-gaye.png",
+    "stats": { "points": 19.0, "rebounds": 2.3, "assists": 9.8 }
   },
   {
     "id": 14,
@@ -190,12 +178,8 @@
     "height": 181,
     "weight": 118,
     "age": 34,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 2.8,
-      "assists": 8.6
-    }
+    "photo": "/players/abidjan-lions/chinedu-sane.png",
+    "stats": { "points": 18.3, "rebounds": 2.8, "assists": 8.6 }
   },
   {
     "id": 15,
@@ -207,12 +191,8 @@
     "height": 188,
     "weight": 117,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.3,
-      "rebounds": 4.9,
-      "assists": 9.3
-    }
+    "photo": "/players/abidjan-lions/obi-wane.png",
+    "stats": { "points": 19.3, "rebounds": 4.9, "assists": 9.3 }
   },
   {
     "id": 16,
@@ -224,12 +204,8 @@
     "height": 210,
     "weight": 111,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.4,
-      "rebounds": 5.0,
-      "assists": 9.1
-    }
+    "photo": "/players/abidjan-lions/kwame-ibrahim.png",
+    "stats": { "points": 10.4, "rebounds": 5.0, "assists": 9.1 }
   },
   {
     "id": 17,
@@ -241,12 +217,8 @@
     "height": 188,
     "weight": 101,
     "age": 32,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/abidjan-lions/yemi-maiga.png",
+    "stats": { "points": 10.2, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 18,
@@ -258,12 +230,8 @@
     "height": 182,
     "weight": 118,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.4,
-      "rebounds": 11.1,
-      "assists": 2.1
-    }
+    "photo": "/players/abidjan-lions/nnamdi-jallow.png",
+    "stats": { "points": 15.4, "rebounds": 11.1, "assists": 2.1 }
   },
   {
     "id": 19,
@@ -275,12 +243,8 @@
     "height": 218,
     "weight": 118,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 2.4,
-      "assists": 9.3
-    }
+    "photo": "/players/abidjan-lions/daren-conte.png",
+    "stats": { "points": 10.2, "rebounds": 2.4, "assists": 9.3 }
   },
   {
     "id": 20,
@@ -292,12 +256,8 @@
     "height": 215,
     "weight": 101,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.8,
-      "assists": 7.8
-    }
+    "photo": "/players/abidjan-lions/olu-zongo.png",
+    "stats": { "points": 18.3, "rebounds": 11.8, "assists": 7.8 }
   },
   {
     "id": 21,
@@ -309,12 +269,8 @@
     "height": 193,
     "weight": 115,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/dakar-titans/simba-fall.png",
+    "stats": { "points": 18.3, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 22,
@@ -326,12 +282,8 @@
     "height": 218,
     "weight": 104,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.9,
-      "rebounds": 11.1,
-      "assists": 9.9
-    }
+    "photo": "/players/dakar-titans/tariq-diallo.png",
+    "stats": { "points": 10.9, "rebounds": 11.1, "assists": 9.9 }
   },
   {
     "id": 23,
@@ -343,12 +295,8 @@
     "height": 219,
     "weight": 100,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 16.3,
-      "rebounds": 10.9,
-      "assists": 9.3
-    }
+    "photo": "/players/dakar-titans/amadi-abara.png",
+    "stats": { "points": 16.3, "rebounds": 10.9, "assists": 9.3 }
   },
   {
     "id": 24,
@@ -360,12 +308,8 @@
     "height": 214,
     "weight": 100,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.3,
-      "rebounds": 10.8,
-      "assists": 9.2
-    }
+    "photo": "/players/dakar-titans/babatunde-keita.png",
+    "stats": { "points": 10.3, "rebounds": 10.8, "assists": 9.2 }
   },
   {
     "id": 25,
@@ -377,12 +321,8 @@
     "height": 180,
     "weight": 110,
     "age": 22,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.3,
-      "rebounds": 11.2,
-      "assists": 9.4
-    }
+    "photo": "/players/dakar-titans/efe-okafor.png",
+    "stats": { "points": 15.3, "rebounds": 11.2, "assists": 9.4 }
   },
   {
     "id": 26,
@@ -394,12 +334,8 @@
     "height": 211,
     "weight": 112,
     "age": 23,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 12.3,
-      "rebounds": 11.3,
-      "assists": 9.5
-    }
+    "photo": "/players/dakar-titans/ikenna-ndiaye.png",
+    "stats": { "points": 12.3, "rebounds": 11.3, "assists": 9.5 }
   },
   {
     "id": 27,
@@ -411,12 +347,8 @@
     "height": 213,
     "weight": 113,
     "age": 24,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 11.3,
-      "rebounds": 11.4,
-      "assists": 9.6
-    }
+    "photo": "/players/dakar-titans/kael-adeboye.png",
+    "stats": { "points": 11.3, "rebounds": 11.4, "assists": 9.6 }
   },
   {
     "id": 28,
@@ -428,12 +360,8 @@
     "height": 215,
     "weight": 114,
     "age": 25,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 13.3,
-      "rebounds": 11.5,
-      "assists": 9.7
-    }
+    "photo": "/players/dakar-titans/zuberi-eze.png",
+    "stats": { "points": 13.3, "rebounds": 11.5, "assists": 9.7 }
   },
   {
     "id": 29,
@@ -445,12 +373,8 @@
     "height": 217,
     "weight": 115,
     "age": 26,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 14.3,
-      "rebounds": 11.6,
-      "assists": 9.8
-    }
+    "photo": "/players/dakar-titans/femi-diarra.png",
+    "stats": { "points": 14.3, "rebounds": 11.6, "assists": 9.8 }
   },
   {
     "id": 30,
@@ -462,12 +386,8 @@
     "height": 219,
     "weight": 116,
     "age": 27,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 16.3,
-      "rebounds": 11.7,
-      "assists": 9.9
-    }
+    "photo": "/players/dakar-titans/emeka-toure.png",
+    "stats": { "points": 16.3, "rebounds": 11.7, "assists": 9.9 }
   },
   {
     "id": 31,
@@ -479,12 +399,8 @@
     "height": 214,
     "weight": 118,
     "age": 28,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.1,
-      "rebounds": 2.4,
-      "assists": 9.8
-    }
+    "photo": "/players/lome-panthers/sade-gueye.png",
+    "stats": { "points": 18.1, "rebounds": 2.4, "assists": 9.8 }
   },
   {
     "id": 32,
@@ -496,12 +412,8 @@
     "height": 218,
     "weight": 101,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.1,
-      "rebounds": 11.9,
-      "assists": 9.1
-    }
+    "photo": "/players/lome-panthers/chidi-sow.png",
+    "stats": { "points": 10.1, "rebounds": 11.9, "assists": 9.1 }
   },
   {
     "id": 33,
@@ -513,12 +425,8 @@
     "height": 210,
     "weight": 111,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.0,
-      "rebounds": 2.3,
-      "assists": 9.8
-    }
+    "photo": "/players/lome-panthers/jelani-gaye.png",
+    "stats": { "points": 19.0, "rebounds": 2.3, "assists": 9.8 }
   },
   {
     "id": 34,
@@ -530,12 +438,8 @@
     "height": 181,
     "weight": 118,
     "age": 34,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 2.8,
-      "assists": 8.6
-    }
+    "photo": "/players/lome-panthers/chinedu-sane.png",
+    "stats": { "points": 18.3, "rebounds": 2.8, "assists": 8.6 }
   },
   {
     "id": 35,
@@ -547,12 +451,8 @@
     "height": 188,
     "weight": 117,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.3,
-      "rebounds": 4.9,
-      "assists": 9.3
-    }
+    "photo": "/players/lome-panthers/obi-wane.png",
+    "stats": { "points": 19.3, "rebounds": 4.9, "assists": 9.3 }
   },
   {
     "id": 36,
@@ -564,12 +464,8 @@
     "height": 210,
     "weight": 111,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.4,
-      "rebounds": 5.0,
-      "assists": 9.1
-    }
+    "photo": "/players/lome-panthers/kwame-ibrahim.png",
+    "stats": { "points": 10.4, "rebounds": 5.0, "assists": 9.1 }
   },
   {
     "id": 37,
@@ -581,12 +477,8 @@
     "height": 188,
     "weight": 101,
     "age": 32,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/lome-panthers/yemi-maiga.png",
+    "stats": { "points": 10.2, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 38,
@@ -598,12 +490,8 @@
     "height": 182,
     "weight": 118,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.4,
-      "rebounds": 11.1,
-      "assists": 2.1
-    }
+    "photo": "/players/lome-panthers/nnamdi-jallow.png",
+    "stats": { "points": 15.4, "rebounds": 11.1, "assists": 2.1 }
   },
   {
     "id": 39,
@@ -615,12 +503,8 @@
     "height": 218,
     "weight": 118,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 2.4,
-      "assists": 9.3
-    }
+    "photo": "/players/lome-panthers/daren-conte.png",
+    "stats": { "points": 10.2, "rebounds": 2.4, "assists": 9.3 }
   },
   {
     "id": 40,
@@ -632,12 +516,8 @@
     "height": 215,
     "weight": 101,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.8,
-      "assists": 7.8
-    }
+    "photo": "/players/lome-panthers/olu-zongo.png",
+    "stats": { "points": 18.3, "rebounds": 11.8, "assists": 7.8 }
   },
   {
     "id": 41,
@@ -649,12 +529,8 @@
     "height": 193,
     "weight": 115,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/accra-eagles/simba-fall.png",
+    "stats": { "points": 18.3, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 42,
@@ -666,12 +542,8 @@
     "height": 218,
     "weight": 104,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.9,
-      "rebounds": 11.1,
-      "assists": 9.9
-    }
+    "photo": "/players/accra-eagles/tariq-diallo.png",
+    "stats": { "points": 10.9, "rebounds": 11.1, "assists": 9.9 }
   },
   {
     "id": 43,
@@ -683,46 +555,34 @@
     "height": 219,
     "weight": 100,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 16.3,
-      "rebounds": 10.9,
-      "assists": 9.3
-    }
+    "photo": "/players/accra-eagles/amadi-abara.png",
+    "stats": { "points": 16.3, "rebounds": 10.9, "assists": 9.3 }
   },
   {
     "id": 44,
     "teamId": 5,
-    "firstName": "Babatunde",
+    "firstName": "Baba",
     "lastName": "Keita",
     "number": 98,
     "position": "PF",
     "height": 214,
     "weight": 100,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.3,
-      "rebounds": 10.8,
-      "assists": 9.2
-    }
+    "photo": "/players/accra-eagles/baba-keita.png",
+    "stats": { "points": 10.3, "rebounds": 10.8, "assists": 9.2 }
   },
   {
     "id": 45,
     "teamId": 5,
-    "firstName": "Efe",
+    "firstName": "Effe",
     "lastName": "Okafor",
     "number": 1,
     "position": "C",
     "height": 180,
     "weight": 110,
     "age": 22,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.3,
-      "rebounds": 11.2,
-      "assists": 9.4
-    }
+    "photo": "/players/accra-eagles/effe-okafor.png",
+    "stats": { "points": 15.3, "rebounds": 11.2, "assists": 9.4 }
   },
   {
     "id": 46,
@@ -734,12 +594,8 @@
     "height": 211,
     "weight": 112,
     "age": 23,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 12.3,
-      "rebounds": 11.3,
-      "assists": 9.5
-    }
+    "photo": "/players/accra-eagles/ikenna-ndiaye.png",
+    "stats": { "points": 12.3, "rebounds": 11.3, "assists": 9.5 }
   },
   {
     "id": 47,
@@ -751,12 +607,8 @@
     "height": 213,
     "weight": 113,
     "age": 24,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 11.3,
-      "rebounds": 11.4,
-      "assists": 9.6
-    }
+    "photo": "/players/accra-eagles/kael-adeboye.png",
+    "stats": { "points": 11.3, "rebounds": 11.4, "assists": 9.6 }
   },
   {
     "id": 48,
@@ -768,12 +620,8 @@
     "height": 215,
     "weight": 114,
     "age": 25,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 13.3,
-      "rebounds": 11.5,
-      "assists": 9.7
-    }
+    "photo": "/players/accra-eagles/zuberi-eze.png",
+    "stats": { "points": 13.3, "rebounds": 11.5, "assists": 9.7 }
   },
   {
     "id": 49,
@@ -785,12 +633,8 @@
     "height": 217,
     "weight": 115,
     "age": 26,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 14.3,
-      "rebounds": 11.6,
-      "assists": 9.8
-    }
+    "photo": "/players/accra-eagles/femi-diarra.png",
+    "stats": { "points": 14.3, "rebounds": 11.6, "assists": 9.8 }
   },
   {
     "id": 50,
@@ -802,12 +646,8 @@
     "height": 219,
     "weight": 116,
     "age": 27,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 16.3,
-      "rebounds": 11.7,
-      "assists": 9.9
-    }
+    "photo": "/players/accra-eagles/emeka-toure.png",
+    "stats": { "points": 16.3, "rebounds": 11.7, "assists": 9.9 }
   },
   {
     "id": 51,
@@ -819,12 +659,8 @@
     "height": 214,
     "weight": 118,
     "age": 28,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.1,
-      "rebounds": 2.4,
-      "assists": 9.8
-    }
+    "photo": "/players/bamako-warriors/sade-gueye.png",
+    "stats": { "points": 18.1, "rebounds": 2.4, "assists": 9.8 }
   },
   {
     "id": 52,
@@ -836,29 +672,21 @@
     "height": 218,
     "weight": 101,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.1,
-      "rebounds": 11.9,
-      "assists": 9.1
-    }
+    "photo": "/players/bamako-warriors/chidi-sow.png",
+    "stats": { "points": 10.1, "rebounds": 11.9, "assists": 9.1 }
   },
   {
     "id": 53,
     "teamId": 6,
     "firstName": "Jelani",
-    "lastName": "Gaye",
+    "lastName": "Gueye",
     "number": 81,
     "position": "SF",
     "height": 210,
     "weight": 111,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.0,
-      "rebounds": 2.3,
-      "assists": 9.8
-    }
+    "photo": "/players/bamako-warriors/jelani-gueye.png",
+    "stats": { "points": 19.0, "rebounds": 2.3, "assists": 9.8 }
   },
   {
     "id": 54,
@@ -870,12 +698,8 @@
     "height": 181,
     "weight": 118,
     "age": 34,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 2.8,
-      "assists": 8.6
-    }
+    "photo": "/players/bamako-warriors/chinedu-sane.png",
+    "stats": { "points": 18.3, "rebounds": 2.8, "assists": 8.6 }
   },
   {
     "id": 55,
@@ -887,12 +711,8 @@
     "height": 188,
     "weight": 117,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.3,
-      "rebounds": 4.9,
-      "assists": 9.3
-    }
+    "photo": "/players/bamako-warriors/obi-wane.png",
+    "stats": { "points": 19.3, "rebounds": 4.9, "assists": 9.3 }
   },
   {
     "id": 56,
@@ -904,12 +724,8 @@
     "height": 210,
     "weight": 111,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.4,
-      "rebounds": 5.0,
-      "assists": 9.1
-    }
+    "photo": "/players/bamako-warriors/kwame-ibrahim.png",
+    "stats": { "points": 10.4, "rebounds": 5.0, "assists": 9.1 }
   },
   {
     "id": 57,
@@ -921,12 +737,8 @@
     "height": 188,
     "weight": 101,
     "age": 32,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/bamako-warriors/yemi-maiga.png",
+    "stats": { "points": 10.2, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 58,
@@ -938,12 +750,8 @@
     "height": 182,
     "weight": 118,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.4,
-      "rebounds": 11.1,
-      "assists": 2.1
-    }
+    "photo": "/players/bamako-warriors/nnamdi-jallow.png",
+    "stats": { "points": 15.4, "rebounds": 11.1, "assists": 2.1 }
   },
   {
     "id": 59,
@@ -955,12 +763,8 @@
     "height": 218,
     "weight": 118,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 2.4,
-      "assists": 9.3
-    }
+    "photo": "/players/bamako-warriors/daren-conte.png",
+    "stats": { "points": 10.2, "rebounds": 2.4, "assists": 9.3 }
   },
   {
     "id": 60,
@@ -972,12 +776,8 @@
     "height": 215,
     "weight": 101,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.8,
-      "assists": 7.8
-    }
+    "photo": "/players/bamako-warriors/olu-zongo.png",
+    "stats": { "points": 18.3, "rebounds": 11.8, "assists": 7.8 }
   },
   {
     "id": 61,
@@ -989,12 +789,8 @@
     "height": 193,
     "weight": 115,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/lagos-sharks/simba-fall.png",
+    "stats": { "points": 18.3, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 62,
@@ -1006,46 +802,34 @@
     "height": 218,
     "weight": 104,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.9,
-      "rebounds": 11.1,
-      "assists": 9.9
-    }
+    "photo": "/players/lagos-sharks/tariq-diallo.png",
+    "stats": { "points": 10.9, "rebounds": 11.1, "assists": 9.9 }
   },
   {
     "id": 63,
     "teamId": 7,
     "firstName": "Amadi",
-    "lastName": "Abara",
+    "lastName": "Abarra",
     "number": 98,
     "position": "SF",
     "height": 219,
     "weight": 100,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 16.3,
-      "rebounds": 10.9,
-      "assists": 9.3
-    }
+    "photo": "/players/lagos-sharks/amadi-abarra.png",
+    "stats": { "points": 16.3, "rebounds": 10.9, "assists": 9.3 }
   },
   {
     "id": 64,
     "teamId": 7,
-    "firstName": "Babatunde",
+    "firstName": "Baba",
     "lastName": "Keita",
     "number": 98,
     "position": "PF",
     "height": 214,
     "weight": 100,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.3,
-      "rebounds": 10.8,
-      "assists": 9.2
-    }
+    "photo": "/players/lagos-sharks/baba-keita.png",
+    "stats": { "points": 10.3, "rebounds": 10.8, "assists": 9.2 }
   },
   {
     "id": 65,
@@ -1057,29 +841,21 @@
     "height": 180,
     "weight": 110,
     "age": 22,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.3,
-      "rebounds": 11.2,
-      "assists": 9.4
-    }
+    "photo": "/players/lagos-sharks/efe-okafor.png",
+    "stats": { "points": 15.3, "rebounds": 11.2, "assists": 9.4 }
   },
   {
     "id": 66,
     "teamId": 7,
     "firstName": "Matew",
-    "lastName": "Mawren",
+    "lastName": "Marwen",
     "number": 90,
     "position": "PG",
     "height": 211,
     "weight": 112,
     "age": 23,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 12.3,
-      "rebounds": 11.3,
-      "assists": 9.5
-    }
+    "photo": "/players/lagos-sharks/matew-marwen.png",
+    "stats": { "points": 12.3, "rebounds": 11.3, "assists": 9.5 }
   },
   {
     "id": 67,
@@ -1091,12 +867,8 @@
     "height": 213,
     "weight": 113,
     "age": 24,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 11.3,
-      "rebounds": 11.4,
-      "assists": 9.6
-    }
+    "photo": "/players/lagos-sharks/gael-lacko.png",
+    "stats": { "points": 11.3, "rebounds": 11.4, "assists": 9.6 }
   },
   {
     "id": 68,
@@ -1108,12 +880,8 @@
     "height": 215,
     "weight": 114,
     "age": 25,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 13.3,
-      "rebounds": 11.5,
-      "assists": 9.7
-    }
+    "photo": "/players/lagos-sharks/zubair-abdul.png",
+    "stats": { "points": 13.3, "rebounds": 11.5, "assists": 9.7 }
   },
   {
     "id": 69,
@@ -1125,12 +893,8 @@
     "height": 217,
     "weight": 115,
     "age": 26,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 14.3,
-      "rebounds": 11.6,
-      "assists": 9.8
-    }
+    "photo": "/players/lagos-sharks/femiye-balla.png",
+    "stats": { "points": 14.3, "rebounds": 11.6, "assists": 9.8 }
   },
   {
     "id": 70,
@@ -1142,12 +906,8 @@
     "height": 219,
     "weight": 116,
     "age": 27,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 16.3,
-      "rebounds": 11.7,
-      "assists": 9.9
-    }
+    "photo": "/players/lagos-sharks/omar-kone.png",
+    "stats": { "points": 16.3, "rebounds": 11.7, "assists": 9.9 }
   },
   {
     "id": 71,
@@ -1159,12 +919,8 @@
     "height": 214,
     "weight": 118,
     "age": 28,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.1,
-      "rebounds": 2.4,
-      "assists": 9.8
-    }
+    "photo": "/players/yaounde-hawks/seydou-ndiaye.png",
+    "stats": { "points": 18.1, "rebounds": 2.4, "assists": 9.8 }
   },
   {
     "id": 72,
@@ -1176,12 +932,8 @@
     "height": 218,
     "weight": 101,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.1,
-      "rebounds": 11.9,
-      "assists": 9.1
-    }
+    "photo": "/players/yaounde-hawks/aliou-cisse.png",
+    "stats": { "points": 10.1, "rebounds": 11.9, "assists": 9.1 }
   },
   {
     "id": 73,
@@ -1193,12 +945,8 @@
     "height": 210,
     "weight": 111,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.0,
-      "rebounds": 2.3,
-      "assists": 9.8
-    }
+    "photo": "/players/yaounde-hawks/marcus-ntouma.png",
+    "stats": { "points": 19.0, "rebounds": 2.3, "assists": 9.8 }
   },
   {
     "id": 74,
@@ -1210,12 +958,8 @@
     "height": 181,
     "weight": 118,
     "age": 34,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 2.8,
-      "assists": 8.6
-    }
+    "photo": "/players/yaounde-hawks/alban-kone.png",
+    "stats": { "points": 18.3, "rebounds": 2.8, "assists": 8.6 }
   },
   {
     "id": 75,
@@ -1227,12 +971,8 @@
     "height": 188,
     "weight": 117,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.3,
-      "rebounds": 4.9,
-      "assists": 9.3
-    }
+    "photo": "/players/yaounde-hawks/obi-juke.png",
+    "stats": { "points": 19.3, "rebounds": 4.9, "assists": 9.3 }
   },
   {
     "id": 76,
@@ -1244,12 +984,8 @@
     "height": 210,
     "weight": 111,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.4,
-      "rebounds": 5.0,
-      "assists": 9.1
-    }
+    "photo": "/players/yaounde-hawks/ibrahima-ndiaye.png",
+    "stats": { "points": 10.4, "rebounds": 5.0, "assists": 9.1 }
   },
   {
     "id": 77,
@@ -1261,12 +997,8 @@
     "height": 188,
     "weight": 101,
     "age": 32,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/yaounde-hawks/ousmane-sarr.png",
+    "stats": { "points": 10.2, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 78,
@@ -1278,12 +1010,8 @@
     "height": 182,
     "weight": 118,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.4,
-      "rebounds": 11.1,
-      "assists": 2.1
-    }
+    "photo": "/players/yaounde-hawks/saliou-kone.png",
+    "stats": { "points": 15.4, "rebounds": 11.1, "assists": 2.1 }
   },
   {
     "id": 79,
@@ -1295,12 +1023,8 @@
     "height": 218,
     "weight": 118,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 2.4,
-      "assists": 9.3
-    }
+    "photo": "/players/yaounde-hawks/mamadou-cisse.png",
+    "stats": { "points": 10.2, "rebounds": 2.4, "assists": 9.3 }
   },
   {
     "id": 80,
@@ -1312,12 +1036,8 @@
     "height": 215,
     "weight": 101,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.8,
-      "assists": 7.8
-    }
+    "photo": "/players/yaounde-hawks/oumar-kone.png",
+    "stats": { "points": 18.3, "rebounds": 11.8, "assists": 7.8 }
   },
   {
     "id": 81,
@@ -1329,12 +1049,8 @@
     "height": 193,
     "weight": 115,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/ouagadougou-bulls/kane-diarra.png",
+    "stats": { "points": 18.3, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 82,
@@ -1346,12 +1062,8 @@
     "height": 218,
     "weight": 104,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.9,
-      "rebounds": 11.1,
-      "assists": 9.9
-    }
+    "photo": "/players/ouagadougou-bulls/patrice-zogbo.png",
+    "stats": { "points": 10.9, "rebounds": 11.1, "assists": 9.9 }
   },
   {
     "id": 83,
@@ -1363,12 +1075,8 @@
     "height": 219,
     "weight": 100,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 16.3,
-      "rebounds": 10.9,
-      "assists": 9.3
-    }
+    "photo": "/players/ouagadougou-bulls/aminou-poindon.png",
+    "stats": { "points": 16.3, "rebounds": 10.9, "assists": 9.3 }
   },
   {
     "id": 84,
@@ -1380,12 +1088,8 @@
     "height": 214,
     "weight": 100,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.3,
-      "rebounds": 10.8,
-      "assists": 9.2
-    }
+    "photo": "/players/ouagadougou-bulls/khalil-diallo.png",
+    "stats": { "points": 10.3, "rebounds": 10.8, "assists": 9.2 }
   },
   {
     "id": 85,
@@ -1397,12 +1101,8 @@
     "height": 180,
     "weight": 110,
     "age": 22,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.3,
-      "rebounds": 11.2,
-      "assists": 9.4
-    }
+    "photo": "/players/ouagadougou-bulls/julius-bior.png",
+    "stats": { "points": 15.3, "rebounds": 11.2, "assists": 9.4 }
   },
   {
     "id": 86,
@@ -1414,12 +1114,8 @@
     "height": 211,
     "weight": 112,
     "age": 23,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 12.3,
-      "rebounds": 11.3,
-      "assists": 9.5
-    }
+    "photo": "/players/ouagadougou-bulls/moh-fatim.png",
+    "stats": { "points": 12.3, "rebounds": 11.3, "assists": 9.5 }
   },
   {
     "id": 87,
@@ -1431,12 +1127,8 @@
     "height": 213,
     "weight": 113,
     "age": 24,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 11.3,
-      "rebounds": 11.4,
-      "assists": 9.6
-    }
+    "photo": "/players/ouagadougou-bulls/romuald-bengou.png",
+    "stats": { "points": 11.3, "rebounds": 11.4, "assists": 9.6 }
   },
   {
     "id": 88,
@@ -1448,12 +1140,8 @@
     "height": 215,
     "weight": 114,
     "age": 25,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 13.3,
-      "rebounds": 11.5,
-      "assists": 9.7
-    }
+    "photo": "/players/ouagadougou-bulls/vladimir-le-grand.png",
+    "stats": { "points": 13.3, "rebounds": 11.5, "assists": 9.7 }
   },
   {
     "id": 89,
@@ -1465,12 +1153,8 @@
     "height": 217,
     "weight": 115,
     "age": 26,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 14.3,
-      "rebounds": 11.6,
-      "assists": 9.8
-    }
+    "photo": "/players/ouagadougou-bulls/koffi-lawson.png",
+    "stats": { "points": 14.3, "rebounds": 11.6, "assists": 9.8 }
   },
   {
     "id": 90,
@@ -1482,12 +1166,8 @@
     "height": 219,
     "weight": 116,
     "age": 27,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 16.3,
-      "rebounds": 11.7,
-      "assists": 9.9
-    }
+    "photo": "/players/ouagadougou-bulls/omar-toure.png",
+    "stats": { "points": 16.3, "rebounds": 11.7, "assists": 9.9 }
   },
   {
     "id": 91,
@@ -1499,12 +1179,8 @@
     "height": 214,
     "weight": 118,
     "age": 28,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.1,
-      "rebounds": 2.4,
-      "assists": 9.8
-    }
+    "photo": "/players/kinshasa-royals/sade-ben.png",
+    "stats": { "points": 18.1, "rebounds": 2.4, "assists": 9.8 }
   },
   {
     "id": 92,
@@ -1516,12 +1192,8 @@
     "height": 218,
     "weight": 101,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.1,
-      "rebounds": 11.9,
-      "assists": 9.1
-    }
+    "photo": "/players/kinshasa-royals/cheikh-ari.png",
+    "stats": { "points": 10.1, "rebounds": 11.9, "assists": 9.1 }
   },
   {
     "id": 93,
@@ -1533,12 +1205,8 @@
     "height": 210,
     "weight": 111,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.0,
-      "rebounds": 2.3,
-      "assists": 9.8
-    }
+    "photo": "/players/kinshasa-royals/youssouf-diallo.png",
+    "stats": { "points": 19.0, "rebounds": 2.3, "assists": 9.8 }
   },
   {
     "id": 94,
@@ -1550,12 +1218,8 @@
     "height": 181,
     "weight": 118,
     "age": 34,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 2.8,
-      "assists": 8.6
-    }
+    "photo": "/players/kinshasa-royals/zoulkifly-tairou.png",
+    "stats": { "points": 18.3, "rebounds": 2.8, "assists": 8.6 }
   },
   {
     "id": 95,
@@ -1567,12 +1231,8 @@
     "height": 188,
     "weight": 117,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 19.3,
-      "rebounds": 4.9,
-      "assists": 9.3
-    }
+    "photo": "/players/kinshasa-royals/pape-mbaye.png",
+    "stats": { "points": 19.3, "rebounds": 4.9, "assists": 9.3 }
   },
   {
     "id": 96,
@@ -1584,12 +1244,8 @@
     "height": 210,
     "weight": 111,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.4,
-      "rebounds": 5.0,
-      "assists": 9.1
-    }
+    "photo": "/players/kinshasa-royals/soliman-ouattara.png",
+    "stats": { "points": 10.4, "rebounds": 5.0, "assists": 9.1 }
   },
   {
     "id": 97,
@@ -1601,12 +1257,8 @@
     "height": 188,
     "weight": 101,
     "age": 32,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 11.1,
-      "assists": 9.1
-    }
+    "photo": "/players/kinshasa-royals/bernard-hounsou.png",
+    "stats": { "points": 10.2, "rebounds": 11.1, "assists": 9.1 }
   },
   {
     "id": 98,
@@ -1618,12 +1270,8 @@
     "height": 182,
     "weight": 118,
     "age": 29,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 15.4,
-      "rebounds": 11.1,
-      "assists": 2.1
-    }
+    "photo": "/players/kinshasa-royals/saliou-kioumbou.png",
+    "stats": { "points": 15.4, "rebounds": 11.1, "assists": 2.1 }
   },
   {
     "id": 99,
@@ -1635,12 +1283,8 @@
     "height": 218,
     "weight": 118,
     "age": 21,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 10.2,
-      "rebounds": 2.4,
-      "assists": 9.3
-    }
+    "photo": "/players/kinshasa-royals/jean-conte.png",
+    "stats": { "points": 10.2, "rebounds": 2.4, "assists": 9.3 }
   },
   {
     "id": 100,
@@ -1652,11 +1296,7 @@
     "height": 215,
     "weight": 101,
     "age": 20,
-    "photo": "/player-placeholder.png",
-    "stats": {
-      "points": 18.3,
-      "rebounds": 11.8,
-      "assists": 7.8
-    }
+    "photo": "/players/kinshasa-royals/fatah-zongo.png",
+    "stats": { "points": 18.3, "rebounds": 11.8, "assists": 7.8 }
   }
 ]
